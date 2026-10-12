@@ -1,0 +1,1181 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Inter Tight", sans-serif;
+}
+
+:root{
+    --my-color: #981d87;
+    --my-text-color: #585b5c;
+}
+
+.first-nav{
+    height: 70px;
+    width: 80%;
+}
+
+.first-nav button{
+    background-color: var(--my-color) !important;
+    height: 30px;
+}
+
+.first-nav a, .second-nav .nav-link{
+    color: var(--my-text-color) !important;
+    font-size: 14px;
+    padding-bottom: 6px;
+}
+
+.first-nav a:hover, .second-nav .nav-link:hover{
+    border-bottom: 2px solid var(--my-color) !important;
+    color: var(--my-color) !important;
+}
+
+header div{
+    box-shadow: .1px .01px .5px .1px;
+    background-color: #fafafa;
+}
+
+.second-nav{
+    height: 50px;
+}
+
+.nav-search{
+    background-color: var(--my-color);
+}
+
+.dropdowns{
+    /* clip-path: polygon(0% 14%, 4% 14%, 9% 9%, 15% 14%, 100% 14%, 100% 100%, 0% 100%); */
+    /* display: none;
+    flex-direction: column;*/
+    gap: 25px;
+    background-color: white;
+    box-shadow: .1px .1px 1px .1px;
+    margin: 4px auto;
+    padding: 20px !important;
+    top: 25px;
+    z-index: 1;
+}
+
+.dropdowns a{
+    color: var(--my-text-color) !important;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.careers:hover .dropdowns-1{
+    display: flex !important;
+}
+
+.investor:hover .dropdowns-2{
+    display: flex !important;
+}
+
+.sustainability:hover .dropdowns-3{
+    display: flex !important;
+}
+
+.resource:hover .dropdowns-4{
+    display: flex !important;
+}
+
+.bi-chat-left-dots-fill{
+    background-color: var(--my-color);
+    font-size: 20px;
+    padding: 10px 15px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 10;
+}
+
+.small-option{
+    width: 14%;
+    border: none;
+    display: none !important;
+}
+
+.splide__slide{
+    min-height: 81dvh !important;
+}
+
+
+.splide1{
+    background-image: url(https://wemabank.com/assets/web-bg-NeQw25Yh.jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    /* height: 81dvh !important; */
+}
+
+.splide2{
+    background-image: url(https://wemabank.com/assets/jingle-bg-Db3fxZJc.jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    /* height: 81dvh !important; */
+}
+
+.splide3{
+    background-image: url();
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 80% 0;
+    object-fit: cover;
+    /* height: 70dvh !important; */
+}
+
+.splide4{
+    background-image: url(https://wemabank.com/assets/hero-background-NkSVHum_.png);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    /* height: 82dvh !important; */
+}
+.splide5{
+    background-image: url(https://wemabank.com/assets/bg-wk-lUXns.png);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    /* height: 70dvh !important; */
+}
+
+.splide6{
+    /* height: 70dvh; */
+}
+
+.splide7{
+    background-image: linear-gradient(to bottom right, #b13aac, #010001), linear-gradient(to bottom, rgb(171, 165, 165));
+    /* height: 82dvh !important; */
+}
+
+.splide7 h1{
+    font-size: 56px;
+    font-weight: 600;
+}
+
+.splide7 button{
+    background-color: white;
+    color: var(--my-color);
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;  
+}
+
+.splide7 button:hover{
+    outline: 1px solid white !important;
+    background-color: #b13aac;
+}
+
+.bi-arrow-right-short{
+    font-size: 18px;
+    font-weight: 700;
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+.splide7 button:hover .bi-arrow-right-short{
+    transform: translateX(10px);
+}
+
+.splide8{
+    /* height: 81dvh; */
+}
+
+.splide8 h1{
+    font-size: 56px;
+    font-weight: 600;
+}
+
+.splide8 button{
+    background-color: var(--my-color);
+    color: white;
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;  
+}
+
+.splide8 button:hover{
+    outline: 1px solid #b13aac !important;
+    background-color: white;
+    color: #b13aac;
+}
+
+.bi-arrow-right-short{
+    font-size: 18px;
+    font-weight: 700;
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+.splide8 button:hover .bi-arrow-right-short{
+    transform: translateX(10px);
+}
+
+.splide9{
+    height: 81dvh;
+    background-image: linear-gradient(to right, #af3492, #d93358);
+    /* height: 82dvh; */
+}
+
+.splide9 h1{
+    font-size: 56px;
+    font-weight: 600;
+}
+
+.splide9 button{
+    background-color: white;
+    color: var(--my-color);
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;  
+}
+
+.splide9 button:hover{
+    outline: 1px solid white !important;
+    background-color: #b13aac;
+}
+
+.bi-arrow-right-short{
+    font-size: 18px;
+    font-weight: 700;
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+.splide9 button:hover .bi-arrow-right-short{
+    transform: translateX(10px);
+}
+
+.splide10{
+    height: 81dvh;
+    background-image: linear-gradient(to right, #33cbb0, #2778a2);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    /* height: 82dvh; */
+}
+
+.splide10 h1{
+    font-size: 56px;
+    font-weight: 600;
+}
+
+.splide10 button{
+    background-color: white;
+    color: var(--my-color);
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;  
+}
+
+.splide10 button:hover{
+    outline: 1px solid white !important;
+    background-color: #b13aac;
+}
+
+.bi-arrow-right-short{
+    font-size: 18px;
+    font-weight: 700;
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+.splide10 button:hover .bi-arrow-right-short{
+    transform: translateX(10px);
+}
+
+.splide11{
+    height: 81dvh;
+    background-image: linear-gradient(to right, #82348e, #4a1b4b);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    /* height: 82dvh; */
+}
+
+.splide11 h1{
+    font-size: 56px;
+    font-weight: 600;
+}
+
+.splide11 button{
+    background-color: white;
+    color: var(--my-color);
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;  
+}
+
+.splide11 button:hover{
+    outline: 1px solid white !important;
+    background-color: #b13aac;
+}
+
+.bi-arrow-right-short{
+    font-size: 18px;
+    font-weight: 700;
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+.splide11 button:hover .bi-arrow-right-short{
+    transform: translateX(10px);
+}
+
+.splide12{
+    height: 81dvh;
+    background-image: linear-gradient(#d4d4d4);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    /* height: 70dvh; */
+}
+
+.splide12 h1{
+    font-size: 56px;
+    font-weight: 600;
+}
+
+.splide12 button{
+    background-color: var(--my-color);
+    color: white;
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;  
+}
+
+.splide12 button:hover{
+    outline: 1px solid #b13aac !important;
+    background-color: white;
+    color: #b13aac;
+}
+
+.bi-arrow-right-short{
+    font-size: 18px;
+    font-weight: 700;
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+.splide12 button:hover .bi-arrow-right-short{
+    transform: translateX(10px);
+}
+
+.scroll{
+    height: 40px;
+    /* border: 1px solid; */
+    /* margin-bottom: 50px; */
+}
+
+.scroll div:nth-child(1){
+    background-color: #ec49de;
+    height: 40px !important;
+    width: 5%;
+}
+
+.scroll div:nth-child(2){
+    background-color: var(--my-color);
+    height: 40px !important;
+    overflow: hidden;
+    width: 100%;  
+}
+
+.scroll div:nth-child(2) p{
+    display: inline-block;
+    animation: scroller 25s linear infinite;
+}
+
+@keyframes scroller {
+    from{
+        transform: translateX(100%);
+    }
+
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+.boxes{
+    min-height: 30dvh;
+    background-color: #f6f6f6;
+    padding: 1px;
+    /* border: 1px solid; */
+}
+
+.box{
+    /* min-height: 16dvh; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)) !important;
+    gap: 20px;
+    align-content: center;
+}
+
+.boxx{
+    background-color: #ffffff;
+    color: grey;
+    border-radius: 0;
+    height: 110px;
+    font-weight: 400;
+    display: flex;
+    flex-shrink: 0 !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.10);
+    cursor: pointer;
+}
+
+.boxx:hover{
+    transform: translateY(-10px);
+}
+
+
+
+.elevate p:nth-child(1){
+    font-weight: 600;
+    color: var(--my-color);
+}
+
+
+
+.elevate p:nth-child(3){
+    color: grey;
+}
+
+.six-cards{
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    
+}
+
+.six-cards .card{
+    /* width: 32% !important; */
+    flex-shrink: 0;
+    background-color: #fff4ff;
+    border: none;
+    transition: all .2s linear;
+    border-radius: 0 !important;
+}
+
+.six-cards .card:hover{
+    transform: translateY(-12px);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+    background-color: #fee9fe;
+}
+
+.six-cards .card:hover a {
+    color: #800c80 !important;
+}
+
+.six-cards .card h5{
+    font-weight: 600;
+}
+
+.six-cards .card p{
+    color: grey;
+}
+
+.SME-patner{
+    min-height: 400px;
+}
+
+.SME-partner div:nth-child(1){
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin-top: 60px !important;
+    gap: 100px;
+}
+
+.SME-partner-purple{
+    font-weight: 700;
+    color: var(--my-color);
+}
+
+.SME-partner-grey{
+    color: grey;
+}
+
+.SME-partner button{
+    background-color: var(--my-color);
+    color: white;
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;  
+}
+
+.SME-partner button:hover{
+    outline: 1px solid #b13aac !important;
+    background-color: white;
+    color: #b13aac;
+}
+
+.SME-partner button .bi-arrow-right-short{
+    font-size: 18px;
+    font-weight: 700;
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    display: inline-block;
+}
+
+.SME-partner button:hover .bi-arrow-right-short{
+    transform: translateX(10px);
+}
+
+.three-cards1{
+    min-height: 200px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    border-radius: 0;
+}
+
+.three-cards1 .card{
+    padding-top: 40px;
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 0;
+}
+
+.three-cards1 .card-body:hover h5{
+    color: var(--my-color);
+}
+
+.three-cards1 .card p{
+    color: grey;
+}
+
+.three-cards1 .card{
+    /* width: 32% !important; */
+    transition: all .2s linear;
+}
+
+.three-cards1 .card:hover{
+    transform: translateY(-12px);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.animation-atm div:nth-child(1){
+    grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+    margin-top: 60px !important;
+}
+
+.animation-atm-purple{
+    font-weight: 700;
+    color: var(--my-color);
+}
+
+.animation-atm-grey{
+    color: grey;
+    text-align: justify;
+}
+
+.animation-atm button{
+    background-color: var(--my-color);
+    color: white;
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;  
+}
+
+.animation-atm button:hover{
+    outline: 1px solid #b13aac !important;
+    background-color: white;
+    color: #b13aac;
+}
+
+.animation-atm button .bi-arrow-right-short{
+    font-size: 18px;
+    font-weight: 700;
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    display: inline-block;
+}
+
+.animation-atm button:hover .bi-arrow-right-short{
+    transform: translateX(10px);
+}
+
+.ALATPay div:nth-child(1){
+    grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+    margin-top: 60px !important;
+}
+
+.ALATPay-purple{
+    font-weight: 700;
+    color: var(--my-color);
+}
+
+.ALATPay-grey{
+    color: grey;
+    text-align: justify;
+}
+
+.ALATPay button{
+    background-color: var(--my-color);
+    color: white;
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+  
+}
+
+.ALATPay button:hover{
+    outline: 1px solid #b13aac !important;
+    background-color: white;
+    color: #b13aac;
+}
+
+.ALATPay button .bi-arrow-right-short{
+    font-size: 18px;
+    font-weight: 700;
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    display: inline-block;
+}
+
+.ALATPay button:hover .bi-arrow-right-short{
+    transform: translateX(10px);
+}
+
+.purple-background1{
+    min-height: 100dvh;
+    background-image: url(https://wemabank.com/assets/background-V42PbY_R.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.purple-background1 .small-grey{
+    font-size: 15px;
+    color: #d1d5db;
+}
+
+.purple-background1 .purple{
+    color: #ec49de;
+    font-weight: 600;
+}
+
+.investor-relations{
+    min-height: 60dvh;
+    grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+    padding-top: 60px;
+}
+
+.investor-relations .loading{
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    padding-top: 20px;
+}
+
+.three-cards2{
+    min-height: 100px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding-top: 10px;
+    /* padding-bottom: 30px; */
+ }
+
+ .three-cards2 .card{
+    padding: 15px;
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 0;
+ }
+
+ .three-cards2 .card-body:hover h5{
+    color: var(--my-color);
+ }
+
+ .three-cards2 .card p{
+    color: grey;
+ }
+
+ .three-cards2 .card{
+    /* width: 32% !important; */
+    /* transition: all .2s linear; */
+}
+
+.three-cards2 .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+}
+
+.offwhite{
+    background-color: #fbfbfb;
+}
+
+.business{
+    /* margin-top: 20px; */
+}
+
+.business div:nth-child(1){
+    grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+    margin-top: 30px !important;
+}
+
+.business-purple{
+    font-weight: 700;
+    color: var(--my-color);
+}
+
+.business-grey{
+    color: grey;
+    text-align: justify;
+}
+
+.business button{
+    background-color: var(--my-color);
+    color: white;
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;  
+}
+
+.business button:hover{
+    outline: 1px solid #b13aac !important;
+    background-color: white;
+    color: #b13aac;
+}
+
+.business button .bi-arrow-right-short{
+    font-size: 18px;
+    font-weight: 700;
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    display: inline-block;
+}
+
+.business button:hover .bi-arrow-right-short{
+    transform: translateX(10px);
+}
+
+.three-cards3{
+    min-height: 200px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    border-radius: 0;
+    padding-top: 40px;
+}
+
+.three-cards3 .card{
+    padding-top: 20px;
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 0;
+}
+
+.three-cards3 .card-body:hover h5{
+    color: var(--my-color);
+}
+
+.three-cards3 .card p{
+    color: grey;
+}
+
+.three-cards3 .card{
+    /* width: 32% !important; */
+    transition: all .1s linear;
+}
+
+.three-cards3 .card:hover{
+    transform: translateY(-12px);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+}
+
+.testimonies{
+    /* margin-bottom: 20px; */
+    /* border: 5px solid; */
+}
+
+.testimonies .head p{
+    color: var(--my-color);
+}
+
+.testimony-card{
+   cursor: grabbing;
+}
+
+.testimony-card .splide__slide{
+    flex-shrink: 0;
+    /* width: 32%; */
+    border-radius: 0;
+    /* border: 1px solid; */
+    height: 250px !important;
+    padding: 20px;
+    
+}
+
+
+
+.testimony-card .splide__slide .card-body{
+    padding: 20px;
+    height: 200px !important;
+    box-shadow: 0 0px 6px rgba(0, 0, 0, 0.15);
+    flex-shrink: 0;
+}
+
+.testimony-card .splide__slide .card-text{
+    color: grey;
+    height: 120px !important;
+}
+
+.stu{
+    height: 120px !important;
+}
+
+.mobile{
+    background-image: url(https://wemabank.com/assets/background-V42PbY_R.png);
+    min-height: 53dvh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mobilee{
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    align-items: end;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.extreme{
+    padding-left: 150px !important;
+}
+
+.star{
+    top: 6rem;
+    left: 27rem;
+}
+
+.curve{
+    left: 10rem;
+    bottom: 0;
+}
+
+.plane{
+    right: 10rem;
+    bottom: 2px;
+}
+
+.bi-toggle-on{
+    font-size: 24px;
+    color: white;
+    padding-top: 10px;
+}
+
+.Article{
+    display: flex;
+    align-items: center;
+    min-height: 380px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.15);
+}
+
+.Article div:nth-child(1){
+    grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+    /* margin-top: 60px !important; */
+}
+
+.Article-purple{
+    font-weight: 700;
+    width: fit-content;
+    color: var(--my-color);
+}
+
+.Article-purple span{
+    font-size: 14px;
+}
+
+.Article-grey{
+    color: grey;
+    text-align: justify;
+}
+
+.article2{
+    width: 98%;
+
+}
+
+.Article button{
+    background-color: white;
+    color: var(--my-color);
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+  
+}
+
+.Article button:hover{
+    /* outline: 1px solid #b13aac !important; */
+    background-color: #b13aac;
+    color: white;
+}
+
+.Article button .bi-arrow-right-short{
+    font-size: 18px;
+    font-weight: 700;
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    display: inline-block;
+}
+
+.Article button:hover .bi-arrow-right-short{
+    transform: translateX(10px);
+}
+
+.announce{
+    height: 100px;
+}
+
+.announce p{
+    color: var(--my-color);
+    background-color: #fff4ff;
+}
+
+.three-cards4{
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    min-height: 80dvh;
+    gap: 20px;
+    /* border: 1px solid */
+    margin-bottom: 90px;
+}
+
+.three-cards4 .card1{
+    height: 80dvh;
+    /* border: 1px solid; */
+    padding: 10px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+}
+
+.three-cards4 .grey{
+    color: grey;
+    text-align: justify;
+}
+
+.three-cards4 button{
+    background-color: white;
+    color: var(--my-color);
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+  
+}
+
+.three-cards4 button:hover{
+    /* outline: 1px solid #b13aac !important; */
+    background-color: #b13aac;
+    color: white;
+}
+
+.three-cards4 button .bi-arrow-right-short{
+    font-size: 18px;
+    font-weight: 700;
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    display: inline-block;
+}
+
+.three-cards4 button:hover .bi-arrow-right-short{
+    transform: translateX(10px);
+}
+
+.three-cards4 .card1 span{
+    color: grey;
+    font-size: 14px;
+    margin: 10px;
+}
+
+.three-cards4 .card1  .purple{
+    font-size: 13px;
+    color: var(--my-color);
+    font-weight: 700;
+}
+
+iframe{
+    margin: auto;
+    height: 400px;
+    padding: 10px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+}
+
+.youtube{
+    height: 600px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+}
+
+.foot-purple{
+    background-image: url(https://wemabank.com/assets/background-V42PbY_R.png);
+    min-height: 120dvh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.newsletter{
+    min-height: 150px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 400;
+    position: absolute;
+    top: 60px;
+    left: 8rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.letter p{
+    color: grey;
+}
+
+input{
+    height: 60px;
+    border: 1px solid;
+    border-radius: 28px;
+    padding: 20px;
+}
+
+.newsletter button{
+    background-color: var(--my-color);
+    color: white;
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    margin-right: 50px;
+  
+}
+
+.newsletter button:hover{
+    outline: 1px solid #b13aac !important;
+    background-color: white;
+    color: #b13aac;
+}
+
+.newsletter button .bi-arrow-right-short{
+    font-size: 18px;
+    font-weight: 700;
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    display: inline-block;
+}
+
+.newsletter button:hover .bi-arrow-right-short{
+    transform: translateX(10px);
+}
+
+.social-media{
+    /* padding-top: 20rem; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-links{
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    line-height: 30px;
+    padding-top: 20rem;
+    padding-bottom: 30px;
+}
+
+.footer-links li{
+    font-size: 14px;
+}
+
+.links p{
+    color: white;
+    font-weight: 700;
+}
+
+.links li a:hover{
+    color: var(--my-color) !important;
+}
+
+.note{
+    font-size: 15px;
+    color: var(--my-color);
+}
+
+
+
+
+@media screen and (max-width: 900px){
+
+    .navs{
+        display: none !important;
+    }
+
+    .small-option{
+        display: flex !important;
+    }
+
+    .first-slide{
+        max-width: 100%;
+    }
+
+    .first-slide .break{
+        max-width: 100%;
+        text-align: center;
+    }
+
+
+    .first-slide .splide__track{
+        width: 100%;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    .first-slide .splide__track img{
+        object-fit: cover;
+    }
+
+    /* .boxx{
+        height: 100px;
+    } */
+
+    .Article{
+        width: 10%;
+    }
+
+    .carrol .break{
+        display: flex;
+        flex-direction: column;
+        /* width: 100%; */
+    }
+}
+
+
+@media screen and (max-width: 500px){
+
+    .navs{
+    display: none !important;
+    }
+
+    .big{
+        display: none !important;
+    }
+
+    .first-nav{
+        width: 85%;
+        margin-right: 30px;
+    }
+
+    .small-option{
+        display: flex !important;
+    }
+
+    .boxes{
+        padding: 30px;
+    }
+
+}
